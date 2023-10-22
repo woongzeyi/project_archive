@@ -1,0 +1,58 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 9d79937a-4884-491e-b031-3be0fe75c150)
+
+  (paper "A4")
+
+  (title_block
+    (title "Ardupotentio")
+    (date "2023-07-25")
+    (rev "1")
+    (comment 1 "Sensors and Actuators Reports, vol. 3, p. 100045, 2021.")
+    (comment 2 "‘Development of an arduino-based integrated system for sensing of hydrogen peroxide’,")
+    (comment 3 "W. Gao, X. Luo, Y. Liu, Y. Zhao, and Y. Cui,")
+    (comment 4 "Reference: ")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 144.78 78.74) (size 20.32 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 463012ab-a4c9-42ab-8ca3-9395476691f2)
+    (property "Sheetname" "control_system" (at 144.78 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "control_system.kicad_sch" (at 144.78 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ardupotentio"
+        (path "/9d79937a-4884-491e-b031-3be0fe75c150" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 111.76 78.74) (size 20.32 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fa4b0175-5ce0-41e3-82a9-2ac6fe46a0f2)
+    (property "Sheetname" "power_system" (at 111.76 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_system.kicad_sch" (at 111.76 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ardupotentio"
+        (path "/9d79937a-4884-491e-b031-3be0fe75c150" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
